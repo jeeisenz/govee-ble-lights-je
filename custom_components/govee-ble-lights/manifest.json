@@ -2,7 +2,7 @@
     "domain": "govee-ble-lights",
     "name": "GOVEE Bluetooth Lights",
     "bluetooth": [
-        { "local_name": "Govee_*", "connectable": false }
+        { "local_name": "H601D_*", "connectable": false }
     ],
     "codeowners": ["@timniklas"],
     "config_flow": true,
