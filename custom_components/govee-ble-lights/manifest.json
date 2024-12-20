@@ -1,10 +1,10 @@
 {
     "domain": "govee-ble-lights",
-    "name": "GOVEE Bluetooth Lights",
+    "name": "GOVEE Bluetooth Lights-JE",
     "bluetooth": [
-        { "local_name": "H601D_*", "connectable": false }
+        { "local_name": "H601D_*", "connectable": true }
     ],
-    "codeowners": ["@timniklas"],
+    "codeowners": ["@timniklas, @jeeisenz"],
     "config_flow": true,
     "dependencies": ["bluetooth"],
     "documentation": "https://github.com/timniklas/hass-govee-bluetooth-lights",
